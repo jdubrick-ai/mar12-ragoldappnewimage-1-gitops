@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  labels:
+    app.kubernetes.io/instance: mar12-ragoldappnewimage-1
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: mar12-ragoldappnewimage-1
+  name: mar12-ragoldappnewimage-1
+spec:
+  accessModes:
+    - ReadWriteOnce
+  volumeMode: Filesystem
+  resources:
+    requests:
+      storage: 100Gi

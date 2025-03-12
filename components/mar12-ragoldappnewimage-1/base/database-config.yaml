@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mar12-ragoldappnewimage-1-database-config
+data:
+  VECTORDB_HOST: "mar12-ragoldappnewimage-1-database"
+  VECTORDB_PORT: "8000"
